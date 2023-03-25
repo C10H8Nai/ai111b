@@ -86,9 +86,6 @@ class TSP:
             else:
                 tol -= 1 # 更新之前的路徑長度
         
-            
-
-
     def distance(self, a, b):
         """
         計算距離
@@ -129,7 +126,6 @@ class TSP:
 ans = TSP(xy)
 print(xy)
 print(ans.calculate(10, 3))  # 裡面的tolerate和times越大，就會算越準
-
 
 
 '''
